@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <title>Week 8 Shecodes</title>
+    <link rel="stylesheet" href="src/index.css" />
+  </head>
+  <body>
+    <div class="weatherapp">
+      <header>
+        <form class="search-form" id="searchform">
+          <input
+            type="search"
+            placeholder="Enter a city...."
+            required
+            id="search-form-input"
+            class="search-form-input"
+          />
+          <input
+            type="submit"
+            value="Search"
+            name=""
+            id=""
+            class="search-form-button"
+          />
+        </form>
+      </header>
+      <main>
+        <div class="weather-app-data">
+          <div>
+            <h1 class="weather-app-city" id="weather-app-city"></h1>
+            <p class="weather-app-details">
+              <span id="time"></span>
+              <span id="description"></span>
+              <br />
+              Humidity: <span class="weather-detail" id="humidity"></span>
+              <span class="weather-detail">% </span>, Wind:<span
+                class="weather-detail"
+                id="speed"
+              ></span>
+              <span class="weather-detail">km/h</span>
+            </p>
+          </div>
+          <div class="weather-app-temp-container">
+            <div id="icon"></div>
+            <div class="weather-app-temperature" id="temperature">9</div>
+            <div class="weather-app-unit">°C</div>
+          </div>
+        </div>
+        <div class="weather-forecast">
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Tue</div>
+            <div class="weather-forecast-icon">☁️</div>
+            <div class="weather-forcast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>15°</strong>
+              </div>
+              <div class="weather-forecast-temperature">9°</div>
+            </div>
+          </div>
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Wed</div>
+            <div class="weather-forecast-icon">☁️</div>
+            <div class="weather-forcast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>15°</strong>
+              </div>
+              <div class="weather-forecast-temperature">9°</div>
+            </div>
+          </div>
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Thu</div>
+            <div class="weather-forecast-icon">☁️</div>
+            <div class="weather-forcast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>15°</strong>
+              </div>
+              <div class="weather-forecast-temperature">9°</div>
+            </div>
+          </div>
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Fri</div>
+            <div class="weather-forecast-icon">☁️</div>
+            <div class="weather-forcast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>15°</strong>
+              </div>
+              <div class="weather-forecast-temperature">9°</div>
+            </div>
+          </div>
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Sat</div>
+            <div class="weather-forecast-icon">☁️</div>
+            <div class="weather-forcast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>15°</strong>
+              </div>
+              <div class="weather-forecast-temperature">9°</div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/Bennett2411/" target="_blank">
+          Sharna Bennett,</a
+        >
+        and is
+        <a href="https://github.com/Bennett2411/Week7-SheCodes" target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and is hosted on
+        <a href="https://sb-week-7.netlify.app/" target="_blank"> Netlify.</a>
+      </footer>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

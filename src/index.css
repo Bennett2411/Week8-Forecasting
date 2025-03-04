@@ -1,0 +1,126 @@
+body {
+  background-color: #ffcbcb;
+  font-family: 'Roboto', serif;
+  font-weight: normal;
+}
+
+header {
+  border-bottom: 1px solid #ffcbcb;
+  padding: 0 0 30px;
+}
+
+a {
+  color: #407088;
+}
+
+.weatherapp {
+  background-color: white;
+  max-width: 600px;
+  margin: 50px auto;
+  box-shadow: rgba(64, 112, 136, 0.8) 0px 30px 50px 0px;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.search-form-input {
+  background-color: #ffcbcb;
+  border: none;
+  border-radius: 6px;
+  width: 80%;
+  padding: 15px 20px;
+  font-size: 16px;
+}
+
+.search-form-button {
+  background-color: #407088;
+  padding: 15px 30px;
+  border: none;
+  margin-left: 5px;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+}
+
+main {
+  padding: 30px 0;
+}
+
+.weather-app-city {
+  margin: 0;
+  font-size: 38px;
+  color: #407088;
+  line-height: 48px;
+}
+
+.weather-app-details {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(39, 33, 66, 0.4);
+  font-weight: 500px;
+}
+
+.weather-app-temp-container {
+  display: flex;
+}
+
+.weather-app-icon {
+  width: 88px;
+  height: 88px;
+}
+.weather-app-temperature {
+  font-size: 88px;
+  font-weight: bold;
+  margin-left: 10px;
+  line-height: 88px;
+}
+
+.weather-app-unit {
+  margin-top: 6px;
+  font-size: 28px;
+}
+.weather-detail {
+  color: #407088;
+  font-weight: bold;
+}
+
+.weather-app-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather-forecast-date {
+  text-align: center;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.weather-forecast-icon {
+  font-size: 38px;
+  text-align: center;
+}
+
+.weather-forcast-temperatures {
+  text-align: center;
+  color: #407088;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.weather-forecast-temperature {
+  padding: 0 10px;
+}
+
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+footer {
+  border-top: 1px solid #ffcbcb;
+  padding: 30px 0 10px 0;
+  text-align: center;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.6);
+}
